@@ -1,0 +1,17 @@
+[ 2026-03-26 23:02:34,436 ] 19 root - INFO - Initiate the Data Ingestion
+[ 2026-03-26 23:02:59,565 ] 69 root - INFO - Performed train test split on dataframe!
+[ 2026-03-26 23:02:59,566 ] 70 root - INFO - Exited split_data_as_train_test method of Data_Ingestion class
+[ 2026-03-26 23:02:59,605 ] 77 root - INFO - Exported train & test data!!
+[ 2026-03-26 23:02:59,606 ] 23 root - INFO - Data Initiation Completed
+[ 2026-03-26 23:02:59,609 ] 27 root - INFO - Initiate the Data Validation
+[ 2026-03-26 23:02:59,846 ] 29 root - INFO - Data Validation Completed
+[ 2026-03-26 23:02:59,846 ] 56 root - INFO - Entered initiate_data_transformation method of DataTransformation class
+[ 2026-03-26 23:02:59,848 ] 58 root - INFO - Starting data transformation
+[ 2026-03-26 23:02:59,944 ] 42 root - INFO - Entered get_data_transformer_object method of DataTransformation class
+[ 2026-03-26 23:02:59,944 ] 45 root - INFO - Initialized KNNImputer with params: {'missing_values': nan, 'n_neighbors': 3, 'weights': 'uniform'}
+[ 2026-03-26 23:02:59,964 ] 41 root - INFO - Enter the save object methos & mainutils class
+[ 2026-03-26 23:02:59,968 ] 45 root - INFO - Exited saving object
+[ 2026-03-26 23:02:59,969 ] 41 root - INFO - Enter the save object methos & mainutils class
+[ 2026-03-26 23:02:59,973 ] 45 root - INFO - Exited saving object
+[ 2026-03-26 23:02:59,975 ] 36 root - INFO - Data Transformation Started!!
+[ 2026-03-26 23:02:59,975 ] 38 root - INFO - Model Training Started!
