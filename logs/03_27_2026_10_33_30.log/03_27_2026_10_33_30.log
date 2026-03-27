@@ -1,0 +1,21 @@
+[ 2026-03-27 10:33:41,070 ] 19 root - INFO - Initiate the Data Ingestion
+[ 2026-03-27 10:33:43,808 ] 69 root - INFO - Performed train test split on dataframe!
+[ 2026-03-27 10:33:43,808 ] 70 root - INFO - Exited split_data_as_train_test method of Data_Ingestion class
+[ 2026-03-27 10:33:43,871 ] 77 root - INFO - Exported train & test data!!
+[ 2026-03-27 10:33:43,872 ] 23 root - INFO - Data Initiation Completed
+[ 2026-03-27 10:33:43,878 ] 27 root - INFO - Initiate the Data Validation
+[ 2026-03-27 10:33:44,230 ] 29 root - INFO - Data Validation Completed
+[ 2026-03-27 10:33:44,231 ] 56 root - INFO - Entered initiate_data_transformation method of DataTransformation class
+[ 2026-03-27 10:33:44,232 ] 58 root - INFO - Starting data transformation
+[ 2026-03-27 10:33:44,418 ] 42 root - INFO - Entered get_data_transformer_object method of DataTransformation class
+[ 2026-03-27 10:33:44,418 ] 45 root - INFO - Initialized KNNImputer with params: {'missing_values': nan, 'n_neighbors': 3, 'weights': 'uniform'}
+[ 2026-03-27 10:33:44,438 ] 41 root - INFO - Enter the save object methos & mainutils class
+[ 2026-03-27 10:33:44,444 ] 45 root - INFO - Exited saving object
+[ 2026-03-27 10:33:44,444 ] 41 root - INFO - Enter the save object methos & mainutils class
+[ 2026-03-27 10:33:44,450 ] 45 root - INFO - Exited saving object
+[ 2026-03-27 10:33:44,452 ] 36 root - INFO - Data Transformation Started!!
+[ 2026-03-27 10:33:44,452 ] 38 root - INFO - Model Training Started!
+[ 2026-03-27 10:39:33,320 ] 41 root - INFO - Enter the save object methos & mainutils class
+[ 2026-03-27 10:39:33,355 ] 45 root - INFO - Exited saving object
+[ 2026-03-27 10:39:33,355 ] 137 root - INFO - Model Trainer Artifact: Model_Trainer_Artifact(trained_model_file_path='Artifacts\\03_27_2026_10_33_41\\model_trainer\\trained_model\\model.pkl', train_metric_artifact=ClassificationMetricArtifact(f1_score=0.9897928246589186, precision_score=0.9863041289023162, recall_score=0.9933062880324544), test_metric_artifact=ClassificationMetricArtifact(f1_score=0.9729511505853855, precision_score=0.964, recall_score=0.9820700896495518))
+[ 2026-03-27 10:39:33,358 ] 42 root - INFO - Model Training Artifact Created
