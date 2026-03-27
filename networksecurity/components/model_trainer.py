@@ -128,6 +128,7 @@ class ModelTrainer:
 
         # Agar abhi NetworkModel class nahi hai, temporarily best_model save karo:
         save_object(self.model_trainer_config.trained_model_file_path, obj=best_model)
+        save_object("final_model/model.pkl", best_model)
 
         model_trainer_artifact = Model_Trainer_Artifact(
             trained_model_file_path=self.model_trainer_config.trained_model_file_path,

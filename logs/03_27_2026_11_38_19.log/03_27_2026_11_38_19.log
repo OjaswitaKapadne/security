@@ -1,0 +1,29 @@
+[ 2026-03-27 11:38:27,208 ] 1025 httpx - INFO - HTTP Request: GET https://dagshub.com/api/v1/user "HTTP/1.1 200 OK"
+[ 2026-03-27 11:38:27,216 ] 107 dagshub - INFO - Accessing as ojaswitakapadne1010
+[ 2026-03-27 11:38:28,846 ] 1025 httpx - INFO - HTTP Request: GET https://dagshub.com/api/v1/repos/ojaswitakapadne1010/security "HTTP/1.1 200 OK"
+[ 2026-03-27 11:38:30,279 ] 1025 httpx - INFO - HTTP Request: GET https://dagshub.com/api/v1/user "HTTP/1.1 200 OK"
+[ 2026-03-27 11:38:30,283 ] 107 dagshub - INFO - Initialized MLflow to track repo "ojaswitakapadne1010/security"
+[ 2026-03-27 11:38:30,284 ] 107 dagshub - INFO - Repository ojaswitakapadne1010/security initialized!
+[ 2026-03-27 11:38:30,315 ] 21 root - INFO - Initiate the Data Ingestion
+[ 2026-03-27 11:38:33,154 ] 69 root - INFO - Performed train test split on dataframe!
+[ 2026-03-27 11:38:33,154 ] 70 root - INFO - Exited split_data_as_train_test method of Data_Ingestion class
+[ 2026-03-27 11:38:33,217 ] 77 root - INFO - Exported train & test data!!
+[ 2026-03-27 11:38:33,218 ] 25 root - INFO - Data Initiation Completed
+[ 2026-03-27 11:38:33,259 ] 29 root - INFO - Initiate the Data Validation
+[ 2026-03-27 11:38:33,691 ] 31 root - INFO - Data Validation Completed
+[ 2026-03-27 11:38:33,692 ] 56 root - INFO - Entered initiate_data_transformation method of DataTransformation class
+[ 2026-03-27 11:38:33,693 ] 58 root - INFO - Starting data transformation
+[ 2026-03-27 11:38:33,803 ] 42 root - INFO - Entered get_data_transformer_object method of DataTransformation class
+[ 2026-03-27 11:38:33,804 ] 45 root - INFO - Initialized KNNImputer with params: {'missing_values': nan, 'n_neighbors': 3, 'weights': 'uniform'}
+[ 2026-03-27 11:38:33,837 ] 41 root - INFO - Enter the save object methos & mainutils class
+[ 2026-03-27 11:38:33,842 ] 45 root - INFO - Exited saving object
+[ 2026-03-27 11:38:33,842 ] 41 root - INFO - Enter the save object methos & mainutils class
+[ 2026-03-27 11:38:33,848 ] 45 root - INFO - Exited saving object
+[ 2026-03-27 11:38:33,850 ] 38 root - INFO - Data Transformation Started!!
+[ 2026-03-27 11:38:33,850 ] 40 root - INFO - Model Training Started!
+[ 2026-03-27 11:45:00,819 ] 41 root - INFO - Enter the save object methos & mainutils class
+[ 2026-03-27 11:45:00,910 ] 45 root - INFO - Exited saving object
+[ 2026-03-27 11:45:00,910 ] 41 root - INFO - Enter the save object methos & mainutils class
+[ 2026-03-27 11:45:00,994 ] 45 root - INFO - Exited saving object
+[ 2026-03-27 11:45:00,994 ] 138 root - INFO - Model Trainer Artifact: Model_Trainer_Artifact(trained_model_file_path='Artifacts\\03_27_2026_11_38_30\\model_trainer\\trained_model\\model.pkl', train_metric_artifact=ClassificationMetricArtifact(f1_score=0.9898723921409763, precision_score=0.9864755752926928, recall_score=0.9932926829268293), test_metric_artifact=ClassificationMetricArtifact(f1_score=0.977491961414791, precision_score=0.9720223820943246, recall_score=0.9830234438156831))
+[ 2026-03-27 11:45:01,000 ] 44 root - INFO - Model Training Artifact Created

@@ -9,6 +9,8 @@ from networksecurity.entity.config_entity import ModelTrainerConfig
 from networksecurity.components.model_trainer import ModelTrainer
 import sys
 
+import dagshub
+dagshub.init(repo_owner='ojaswitakapadne1010', repo_name='security', mlflow=True)
 
 if __name__  == "__main__":
     try:
