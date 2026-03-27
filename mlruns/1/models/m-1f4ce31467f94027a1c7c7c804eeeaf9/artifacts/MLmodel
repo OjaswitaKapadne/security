@@ -1,0 +1,23 @@
+artifact_path: file:C:/Users/Ojaswita Kapadne/OneDrive/Desktop/Network Security/mlruns/1/models/m-1f4ce31467f94027a1c7c7c804eeeaf9/artifacts
+flavors:
+  python_function:
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.sklearn
+    model_path: model.pkl
+    predict_fn: predict
+    python_version: 3.13.5
+  sklearn:
+    code: null
+    pickled_model: model.pkl
+    serialization_format: cloudpickle
+    sklearn_version: 1.8.0
+    skops_trusted_types: null
+mlflow_version: 3.10.1
+model_id: m-1f4ce31467f94027a1c7c7c804eeeaf9
+model_size_bytes: 13407679
+model_uuid: m-1f4ce31467f94027a1c7c7c804eeeaf9
+prompts: null
+run_id: 34401ae3c66e4549bb87e25036a8ab25
+utc_time_created: '2026-03-27 10:05:07.966902'
